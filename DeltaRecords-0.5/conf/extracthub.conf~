@@ -1,0 +1,5 @@
+reducer=com.wisdomledger.deltarecords.MergeFileRecordsReduce
+format=WRKING_PNL_ADJ_F_DEL*
+input=hdfs://localhost:9000/e_hub_composite_rowkey/
+output=hdfs://localhost:9000/mr_output/
+pkindex=0
